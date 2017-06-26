@@ -1,0 +1,728 @@
+* {
+    box-sizing: border-box;
+}
+
+// .header {
+//     width: 100%;
+//     background: #f8f8f8;
+// }
+
+/*以上为第一部分头部*/
+
+.header .title {
+    width: 100%;
+    background: #f8f8f8;
+}
+
+.header .title .first,
+.header .second,
+.nav .title .centent {
+    width: 1185px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header .title .first {
+    height: 39px;
+    font-size: 12px;
+    color: #999;
+    line-height: 39px;
+}
+
+.header .first .right span:nth-child(1) {
+    color: #01a2ea;
+    padding-right: 15px;
+}
+
+.header .first .right span:nth-child(2) {
+    padding-right: 13px;
+}
+
+
+/*以上为头部第一部分*/
+
+.header .second {
+    height: 104px;
+    // background: #8DB4EB;
+    /*删除*/
+    // padding: 12px 13px 12px 0;
+}
+
+.second .left .logo {
+    width: 153px;
+    height: 72px;
+    margin-top: 13px;
+    position: relative;
+}
+
+.second .left span {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    color: #454545;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 245px;
+    background: url(../images/bottom.png) 40px 8px no-repeat;
+    background-size: 18px 15px;
+}
+
+
+.second .center {
+    margin: 34px 272px 30px 120px;
+}
+
+.second .center .input {
+    width: 430px;
+    height: 40px;
+    border: 3px solid #ff8800;
+}
+
+.second .center .seek {
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    background: #ff8800 url(../images/ss.png) center center no-repeat;
+}
+
+.second .right {
+    margin-top: 12px;
+}
+
+
+/*以上为头部第二部分*/
+
+.nav {
+    margin-bottom: 46px;
+}
+
+.nav .title {
+    background: #44aaff;
+    height: 41px;
+}
+
+.nav .title .centent {
+    font-size: 16px;
+    color: #fff;
+    line-height: 41px;
+}
+
+.nav .title .centent span:nth-child(1) {
+    padding: 10px 20px 10px 20px;
+    background: #3390dd;
+}
+
+.nav .title .centent span:nth-child(2) {
+    padding-left: 49px;
+}
+
+.nav .title .centent span:nth-child(3) {
+    padding-left: 58px;
+}
+
+.nav .title .centent span:nth-child(4) {
+    padding-left: 57px;
+}
+
+.nav .title .centent span:nth-child(5) {
+    padding-left: 49px;
+}
+
+.nav .title .centent span:nth-child(6) {
+    padding-left: 40px;
+}
+
+.nav .title .centent span:nth-child(7) {
+    padding-left: 57px;
+}
+
+.nav .title .centent span:nth-child(8) {
+    padding-left: 74px;
+}
+
+.nav .title .centent span:nth-child(9) {
+    padding-left: 72px;
+}
+
+.nav .background {
+    width: 100%;
+    height: 363px;
+    background: url(../images/nav.jpg) center center no-repeat;
+}
+
+
+/*以上为导航部分*/
+
+.body .like .title span:nth-child(1) {
+    font-size: 26px;
+    color: #ff7800;
+}
+
+.body .like .title span:nth-child(2) {
+    font-size: 17px;
+    color: #ff7800;
+}
+
+.body .like .title span:nth-child(3) {
+    font-size: 15px;
+    color: #d3d3d3;
+    padding-top: 15px;
+}
+
+.body .like .title {
+    padding-bottom: 17px;
+    border-bottom: 2px solid #ff7800;
+}
+
+.body .like .details li {
+    padding-top: 16px;
+    width: 284px;
+    margin-left: 17px;
+}
+
+.body .like .details li:nth-child(1) {
+    margin-left: 0px;
+}
+
+.body .like .details li img {
+    width: 284px;
+    height: 199px;
+}
+
+.body .like .details li p {
+    font-size: 16px;
+    color: #211734;
+}
+
+.body .like .details li span:nth-child(3) {
+    font-size: 12px;
+    color: #636d75;
+    padding-top: 5px;
+}
+
+.body .like .details li div {
+    color: #ff7800;
+}
+
+.body .like .details li div span:nth-child(1) {
+    font-size: 17px;
+}
+
+.body .like .details li div span:nth-child(2) {
+    font-size: 11px;
+}
+
+.body .like .details .position {
+    position: relative;
+}
+
+.body .like .details li span:nth-child(5) {
+    position: absolute;
+    top: 195px;
+    left: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.body .like .details li span:nth-child(6) {
+    position: absolute;
+    top: 195px;
+    left: 215px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.body .like .details li p:nth-child(7) {
+    width: 56px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    top: 15px;
+    left: 215px;
+    font-size: 13px;
+    color: #fff;
+    background: url(../images/background.png) center center no-repeat;
+}
+
+.body {
+    width: 1199px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.body .like .details {
+    padding-left: 6px;
+    /*为什么用
+	margin-right: auto;
+    margin-left: auto;
+    没有作用*/
+    margin-bottom: 64px;
+}
+
+
+/*以上为详情页第一部分-猜你喜欢*/
+
+
+/*.around{
+	margin-bottom: 75px;
+	去掉更美观
+}*/
+
+.around .title {
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #44aaff;
+    font-size: 14px;
+    /*样式覆盖*/
+    color: #333;
+    position: relative;
+}
+
+.around .title p {
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 6px solid #44aaff;
+    position: absolute;
+    top: 39px;
+    left: 205px;
+}
+
+.around .title span:nth-child(1) {
+    font-size: 26px;
+    color: #44aaff;
+}
+
+.around .title span:nth-child(2) {
+    color: #44aaff;
+    padding-left: 118px;
+}
+
+.around .title span:nth-child(6) {
+    padding-top: 15px;
+    color: #d3d3d3;
+}
+
+.around .title span:nth-child(3) {
+    padding-left: 50px;
+}
+
+.around .title span:nth-child(4) {
+    padding-left: 43px;
+}
+
+.around .title span:nth-child(5) {
+    padding-left: 51px;
+}
+
+.around ul li:nth-child(1) img {
+    width: 282px;
+    height: 499px;
+}
+
+.around ul li img {
+    width: 284px;
+    height: 200px;
+}
+
+.around ul li {
+    margin-right: 18px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    width: 284px;
+}
+
+.around ul li:nth-child(1) {
+    width: 282px;
+    margin-bottom: 0;
+    /*样式覆盖的原因*/
+    font-size: 14px;
+}
+
+.around ul li:nth-child(4),
+.around ul li:nth-child(7) {
+    margin-right: 0px;
+    /*样式覆盖的原因*/
+}
+
+.around ul li span:nth-child(3) {
+    font-size: 13px;
+    color: #636d75;
+}
+
+.around ul li div span:nth-child(1),
+.around ul li div span:nth-child(2) {
+    color: #ff7800;
+}
+
+.around ul li div span:nth-child(1) {
+    font-size: 18px;
+}
+
+
+/*以上为详情页第二部分-周边游*/
+
+.China {
+    margin-bottom: 27px;
+}
+
+.China .title {
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #f45a5a;
+    font-size: 14px;
+    /*样式覆盖*/
+    color: #333;
+    position: relative;
+}
+
+.China .title p {
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 6px solid #f45a5a;
+    position: absolute;
+    top: 39px;
+    left: 205px;
+}
+
+.China .title span:nth-child(1) {
+    font-size: 26px;
+    color: #f45a5a;
+}
+
+.China .title span:nth-child(2) {
+    color: #f45a5a;
+    padding-left: 118px;
+}
+
+.China .title span:nth-child(6) {
+    padding-top: 15px;
+    color: #d3d3d3;
+}
+
+.China .title span:nth-child(3) {
+    padding-left: 50px;
+}
+
+.China .title span:nth-child(4) {
+    padding-left: 43px;
+}
+
+.China .title span:nth-child(5) {
+    padding-left: 51px;
+}
+
+
+/*头部分*/
+
+.China ul>.left {
+    width: 156px;
+    margin-right: 84px;
+}
+
+.China ul .left div p:nth-child(1) {
+    font-size: 13px;
+    font-weight: bold;
+    border: #333;
+    padding-bottom: 27px;
+}
+
+.China ul>.left span {
+    font-size: 11px;
+    border: #46393f;
+    padding-right: 12px;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+
+.China ul .right-li {
+    width: 220px;
+    box-shadow: 1px 1px 4px 1px #ccc, -1px -1px 4px 1px #ccc;
+    margin-right: 23px;
+    margin-bottom: 19px;
+}
+
+.China ul .right-li:nth-child(5),
+.China ul .right-li:nth-child(9) {
+    margin-right: 0;
+}
+
+.China ul .right-li img {
+    width: 220px;
+    height: 125px;
+}
+
+.China ul .right-li .content .left span:nth-child(1),
+.China ul .right-li .content .left span:nth-child(3) {
+    font-size: 10px;
+    color: #ff8800;
+}
+
+.China ul .right-li .content .left span:nth-child(2) {
+    font-size: 14px;
+    color: #ff8800;
+}
+
+.China ul .right-li .content .right span:nth-child(1) {
+    font-size: 11px;
+    color: #9f9f9f;
+}
+
+.China ul .right-li .content .right span:nth-child(2) {
+    font-size: 11px;
+    color: #ff8800;
+}
+
+.China ul .right-li p {
+    font-size: 13px;
+    color: #404040;
+}
+
+.China ul .right-li .content {
+    width: 220px;
+    height: 90px;
+    padding: 16px 16px 17px 14px;
+}
+
+
+/*以上为详情页第三部分-国内游*/
+
+.Foreign .title span:nth-child(1),
+.Foreign .title span:nth-child(2) {
+    color: #3dc399;
+}
+
+.Foreign .title {
+    border-bottom: 2px solid #3dc399;
+}
+
+.Foreign .title p {
+    border-bottom: 6px solid #3dc399;
+}
+
+
+/*以上为详情页第四部分-国内游*/
+
+.ticket .title span:nth-child(1),
+.ticket .title span:nth-child(2) {
+    color: #ff8800;
+}
+
+.ticket .title {
+    border-bottom: 2px solid #ff8800;
+}
+
+.ticket .title p {
+    border-bottom: 6px solid #ff8800;
+}
+
+.ticket .title span:nth-child(2) {
+    padding-left: 90px;
+}
+
+
+/*以上为详情页第四部分-景点门票*/
+
+.Cruises .title span:nth-child(1),
+.Cruises .title span:nth-child(2) {
+    color: #0ec5cc;
+}
+
+.Cruises .title {
+    border-bottom: 2px solid #0ec5cc;
+}
+
+.Cruises .title p {
+    border-bottom: 6px solid #0ec5cc;
+}
+
+.Cruises .title span:nth-child(2) {
+    padding-left: 140px;
+}
+
+.Cruises .title span:nth-child(9) {
+    padding-top: 15px;
+    color: #d3d3d3;
+}
+
+.Cruises .title span:nth-child(6) {
+    padding-left: 42px;
+    color: #333;
+}
+
+.Cruises .title span:nth-child(7) {
+    padding-left: 33px;
+}
+
+.Cruises .title span:nth-child(8) {
+    padding-left: 41px;
+}
+
+.Cruises .clear .hot p:nth-child(2),
+.Cruises .clear .hot p:nth-child(3),
+.Cruises .clear .hot p:nth-child(4),
+.Cruises .clear .hot p:nth-child(5),
+.Cruises .clear .hot p:nth-child(6),
+.Cruises .clear .hot p:nth-child(7) {
+    width: 138px;
+    height: 27px;
+    line-height: 27px;
+    margin-left: 8px;
+    padding-left: 47px;
+    margin-bottom: 19px;
+}
+
+.Cruises .clear .hot p:nth-child(2) {
+    background: url(../images/yl01_15.png) 0 0 no-repeat;
+}
+
+.Cruises .clear .hot p:nth-child(3) {
+    background: url(../images/yl02_15.png) 0 0 no-repeat;
+}
+
+.Cruises .clear .hot p:nth-child(4) {
+    background: url(../images/yl03_15.png) 0 0 no-repeat;
+}
+
+.Cruises .clear .hot p:nth-child(5) {
+    background: url(../images/yl04_15.png) 0 0 no-repeat;
+}
+
+.Cruises .clear .hot p:nth-child(6) {
+    background: url(../images/yl05_15.png) 0 0 no-repeat;
+}
+
+.Cruises .clear .hot p:nth-child(7) {
+    background: url(../images/yl02_15.png) 0 0 no-repeat;
+}
+
+
+/*以上为详情页第四部分-游轮*/
+
+.Common {
+    padding-bottom: 46px;
+}
+
+.Common span {
+    display: inline-block;
+    background: url(../images/suo_17.png) 0 0 no-repeat;
+    padding-left: 53px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 8px;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.Common .photo,
+.visa .banner {
+    width: 1188px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*以上为详情页第四部分-大家都爱玩的*/
+
+
+/*以上为详情的全部*/
+
+.visa {
+    background: #f5f5f5;
+}
+
+.visa .banner {
+    padding: 26px 0 34px 0;
+}
+
+.visa .banner p {
+    font-size: 24px;
+    color: #3a3a3a;
+    padding-bottom: 33px;
+}
+
+.visa .banner img {
+    margin-right: 15px;
+    margin-bottom: 22px;
+}
+
+.visa .banner img:nth-child(7),
+.visa .banner img:nth-child(13) {
+    margin-right: 0;
+}
+
+
+/*以上为详情页第四部分-签证*/
+
+.fotter {
+    background: #333;
+    padding: 35px 0 0 0;
+}
+
+.fotter .one {
+    padding-bottom: 26px;
+}
+
+.fotter .one ul {
+    width: 817px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fotter .one ul li {
+    margin-left: 99px;
+}
+
+.fotter .one ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+.fotter .one ul li p {
+    color: #939393;
+    font-size: 14px;
+}
+
+.fotter .one ul li p:nth-child(1) {
+    font-size: 18px;
+    width: 130px;
+    border-bottom: 2px solid #939393;
+    padding-bottom: 9px;
+}
+
+
+/*结尾的第一部分*/
+
+.fotter .two {
+    background: #555;
+    height: 34px;
+    line-height: 34px;
+}
+
+.fotter .two .center {
+    width: 455px;
+    font-size: 12px;
+    color: #969696;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*结尾的第二部分*/
+
+.site {
+    width: 100%;
+    height: 70px;
+    color: #606060;
+    display: table;
+}
+
+.site .center {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
